@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: li Microsoft, Microsoft, LIC=X1ERA-1GKM3-595GZ-JKBQ9-GH9E2-FY8LU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\FreeRTOS.uvprojx
+Project File Date:  08/30/2018
+
+<h2>Output:</h2>
+Build target 'FreeRTOS'
+compiling iot.c...
+compiling device.c...
+compiling mqtt_client.c...
+..\MIDDLEWARE\MQTTClient\mqtt_client.c(15): warning:  #181-D: argument is incompatible with corresponding format string conversion
+        COM_DBG("Message arrived on topic %.*s: %.*s\n", data->topicName->lenstring.len, data->topicName->lenstring.data,
+..\MIDDLEWARE\MQTTClient\mqtt_client.c(35): warning:  #177-D: variable "c" was declared but never referenced
+        MQTTClient* c = (MQTTClient*)parm;
+..\MIDDLEWARE\MQTTClient\mqtt_client.c(52): warning:  #550-D: parameter "pvParameters" was set but never used
+  void Mqtt_Clinet_Task(void *pvParameters)
+..\MIDDLEWARE\MQTTClient\mqtt_client.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=87104 RO-data=8828 RW-data=292 ZI-data=64572  
+FromELF: creating hex file...
+"..\OBJ\usrbin0.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

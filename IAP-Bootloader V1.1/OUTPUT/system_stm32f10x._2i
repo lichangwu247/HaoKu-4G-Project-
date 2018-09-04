@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\IAP -I..\HARDWARE\STMFLASH
+-I "D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.27\IAP-Bootloader V1.1\USER\RTE"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d --feedback "..\OUTPUT\BOOTLOADER V1.fed" "system_stm32f10x.c"

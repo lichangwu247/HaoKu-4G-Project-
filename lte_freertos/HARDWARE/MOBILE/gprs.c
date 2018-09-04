@@ -141,8 +141,6 @@ void vMOBILE_Start_GPRS_Task(void *arg)
 						device_gprs_base_locate.WARN_FLAG=0;
 				 }
 			}
-
-			
 			xTicksToWait = 90000 / portTICK_PERIOD_MS;
 			vTaskSetTimeOutState(&xTimeOut); /* Record the time at which this function was entered. */	
 		}

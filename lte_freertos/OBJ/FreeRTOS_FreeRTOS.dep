@@ -3,7 +3,7 @@ F (.\main.c)(0x5B87B470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --spli
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -204,7 +204,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
-F (..\MIDDLEWARE\IOT\iot.c)(0x5B88A3AD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\iot.o --omf_browse ..\obj\iot.crf --depend ..\obj\iot.d)
+F (..\MIDDLEWARE\IOT\iot.c)(0x5B8918FF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\iot.o --omf_browse ..\obj\iot.crf --depend ..\obj\iot.d)
 I (..\MIDDLEWARE\DEVICE\prize.h)(0x5B0D2378)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (..\USER\stm32f10x.h)(0x5B6411DA)
@@ -246,7 +246,7 @@ I (..\SYSTEM\list\sys_list.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -342,7 +342,7 @@ I (..\STM32_Cryptographic\Inc\ED25519/ed25519.h)(0x5B0D2378)
 I (..\STM32_Cryptographic\Inc\C25519/c25519.h)(0x5B0D2378)
 I (..\STM32_Cryptographic\Inc\CHACHA/chacha.h)(0x5B0D2378)
 I (..\STM32_Cryptographic\Inc\CHACHA20-POLY1305/chacha20-poly1305.h)(0x5B0D2378)
-F (.\usr_task.c)(0x5B85F82C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usr_task.o --omf_browse ..\obj\usr_task.crf --depend ..\obj\usr_task.d)
+F (.\usr_task.c)(0x5B8911F2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usr_task.o --omf_browse ..\obj\usr_task.crf --depend ..\obj\usr_task.d)
 I (..\HARDWARE\I2C\info_storage.h)(0x5B0D2378)
 I (..\MIDDLEWARE\DEVICE\device.h)(0x5B8658EA)
 I (..\SYSTEM\usart\usart3.h)(0x5B0D2378)
@@ -384,7 +384,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -413,7 +413,7 @@ I (..\HARDWARE\MOBILE\mobile_startup.h)(0x5B85FD70)
 I (..\HARDWARE\MOBILE\gprs.h)(0x5B85F858)
 I (..\HARDWARE\RTC\rtc.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
-F (..\MIDDLEWARE\DEVICE\device.c)(0x5B88BC57)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\device.o --omf_browse ..\obj\device.crf --depend ..\obj\device.d)
+F (..\MIDDLEWARE\DEVICE\device.c)(0x5B8901CF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\device.o --omf_browse ..\obj\device.crf --depend ..\obj\device.d)
 I (..\MIDDLEWARE\DEVICE\prize.h)(0x5B0D2378)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (..\USER\stm32f10x.h)(0x5B6411DA)
@@ -459,7 +459,7 @@ I (..\HARDWARE\SELECTOR\selector.h)(0x5B0D2378)
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -489,7 +489,7 @@ F (..\MIDDLEWARE\ROUTINE\routine.c)(0x5B7E224E)(--c99 -c --cpu Cortex-M3 -g -O0 
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -552,7 +552,7 @@ F (..\MIDDLEWARE\DEVICE\prize.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --a
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -680,7 +680,7 @@ I (..\STM32_Cryptographic\Inc\CHACHA20-POLY1305/chacha20-poly1305.h)(0x5B0D2378)
 F (..\MIDDLEWARE\MQTTClient\MQTTClient.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqttclient.o --omf_browse ..\obj\mqttclient.crf --depend ..\obj\mqttclient.d)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -784,7 +784,7 @@ I (..\FreeRTOS\include\semphr.h)(0x5B0D2378)
 I (..\FreeRTOS\include\queue.h)(0x5B0D2378)
 I (..\FreeRTOS\include\task.h)(0x5B0D2378)
 I (..\FreeRTOS\include\list.h)(0x5B0D2378)
-F (..\MIDDLEWARE\MQTTClient\mqtt_client.c)(0x5B88A5D4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqtt_client.o --omf_browse ..\obj\mqtt_client.crf --depend ..\obj\mqtt_client.d)
+F (..\MIDDLEWARE\MQTTClient\mqtt_client.c)(0x5B8911FC)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqtt_client.o --omf_browse ..\obj\mqtt_client.crf --depend ..\obj\mqtt_client.d)
 I (..\USER\usr_task.h)(0x5B85F7AA)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -835,7 +835,7 @@ I (..\HARDWARE\MOBILE\mobile_startup.h)(0x5B85FD70)
 I (..\MIDDLEWARE\MQTTClient\mqtt_client.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -850,7 +850,7 @@ I (..\SYSTEM\usart\usart3.h)(0x5B0D2378)
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 F (..\MIDDLEWARE\MQTT\MQTTConnectClient.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqttconnectclient.o --omf_browse ..\obj\mqttconnectclient.crf --depend ..\obj\mqttconnectclient.d)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -862,7 +862,7 @@ F (..\MIDDLEWARE\MQTT\MQTTConnectServer.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 
 I (..\MIDDLEWARE\MQTT\StackTrace.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -872,7 +872,7 @@ F (..\MIDDLEWARE\MQTT\MQTTDeserializePublish.c)(0x5B0D2378)(--c99 -c --cpu Corte
 I (..\MIDDLEWARE\MQTT\StackTrace.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -882,7 +882,7 @@ F (..\MIDDLEWARE\MQTT\MQTTFormat.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 
 I (..\MIDDLEWARE\MQTT\StackTrace.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -892,7 +892,7 @@ F (..\MIDDLEWARE\MQTT\MQTTPacket.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 
 I (..\MIDDLEWARE\MQTT\StackTrace.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -900,7 +900,7 @@ I (..\MIDDLEWARE\MQTT\MQTTFormat.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 F (..\MIDDLEWARE\MQTT\MQTTSerializePublish.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqttserializepublish.o --omf_browse ..\obj\mqttserializepublish.crf --depend ..\obj\mqttserializepublish.d)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -910,7 +910,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 F (..\MIDDLEWARE\MQTT\MQTTSubscribeClient.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqttsubscribeclient.o --omf_browse ..\obj\mqttsubscribeclient.crf --depend ..\obj\mqttsubscribeclient.d)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -920,7 +920,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 F (..\MIDDLEWARE\MQTT\MQTTSubscribeServer.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqttsubscribeserver.o --omf_browse ..\obj\mqttsubscribeserver.crf --depend ..\obj\mqttsubscribeserver.d)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -930,7 +930,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 F (..\MIDDLEWARE\MQTT\MQTTUnsubscribeClient.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqttunsubscribeclient.o --omf_browse ..\obj\mqttunsubscribeclient.crf --depend ..\obj\mqttunsubscribeclient.d)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -940,7 +940,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 F (..\MIDDLEWARE\MQTT\MQTTUnsubscribeServer.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mqttunsubscribeserver.o --omf_browse ..\obj\mqttunsubscribeserver.crf --depend ..\obj\mqttunsubscribeserver.d)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -1063,7 +1063,7 @@ F (..\HARDWARE\MOBILE\mobile.c)(0x5B87956C)(--c99 -c --cpu Cortex-M3 -g -O0 --ap
 I (..\MIDDLEWARE\MQTTClient\mqtt_client.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -1124,7 +1124,7 @@ I (..\HARDWARE\MOBILE\mobile.h)(0x5B8790BC)
 I (..\HARDWARE\DMA\dma.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart2.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
-F (..\HARDWARE\MOBILE\mobile_net.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mobile_net.o --omf_browse ..\obj\mobile_net.crf --depend ..\obj\mobile_net.d)
+F (..\HARDWARE\MOBILE\mobile_net.c)(0x5B890A9B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mobile_net.o --omf_browse ..\obj\mobile_net.crf --depend ..\obj\mobile_net.d)
 I (..\HARDWARE\MOBILE\mobile_net.h)(0x5B0D2378)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (..\USER\stm32f10x.h)(0x5B6411DA)
@@ -1179,7 +1179,7 @@ I (..\SYSTEM\usart\usart2.h)(0x5B0D2378)
 I (..\SYSTEM\ringbuf\ringbuf.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
 I (..\SYSTEM\delay\delay.h)(0x5B0D2378)
-F (..\HARDWARE\MOBILE\mobile_startup.c)(0x5B87B470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mobile_startup.o --omf_browse ..\obj\mobile_startup.crf --depend ..\obj\mobile_startup.d)
+F (..\HARDWARE\MOBILE\mobile_startup.c)(0x5B88F8EE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mobile_startup.o --omf_browse ..\obj\mobile_startup.crf --depend ..\obj\mobile_startup.d)
 I (..\USER\usr_task.h)(0x5B85F7AA)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -1464,7 +1464,7 @@ F (..\HARDWARE\I2C\info_storage.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 -
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -1614,7 +1614,7 @@ F (..\HARDWARE\UPGRADE\upgrade.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --
 I (..\MIDDLEWARE\MQTTClient\mqtt_client.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)
@@ -1674,7 +1674,7 @@ I (..\USER\usr_task.h)(0x5B85F7AA)
 I (..\HARDWARE\UPGRADE\hexbin.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
 I (..\HARDWARE\FLASH\flash.h)(0x5B0D2378)
-F (..\HARDWARE\MOBILE\gprs.c)(0x5B87B5B6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gprs.o --omf_browse ..\obj\gprs.crf --depend ..\obj\gprs.d)
+F (..\HARDWARE\MOBILE\gprs.c)(0x5B8DDF12)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gprs.o --omf_browse ..\obj\gprs.crf --depend ..\obj\gprs.d)
 I (..\MIDDLEWARE\DEVICE\device.h)(0x5B8658EA)
 I (..\SYSTEM\usart\usart3.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1731,7 +1731,7 @@ I (..\HARDWARE\MOBILE\mobile.h)(0x5B8790BC)
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
-I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B0D2378)
+I (..\MIDDLEWARE\MQTT\MQTTConnect.h)(0x5B8A2E3F)
 I (..\MIDDLEWARE\MQTT\MQTTPublish.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTSubscribe.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTUnsubscribe.h)(0x5B0D2378)

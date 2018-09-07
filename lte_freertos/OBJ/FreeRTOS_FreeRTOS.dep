@@ -1,5 +1,5 @@
 Dependencies for Project 'FreeRTOS', Target 'FreeRTOS': (DO NOT MODIFY !)
-F (.\main.c)(0x5B87B470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5B91D784)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\MIDDLEWARE\IOT\iot.h)(0x5B879F5A)
 I (..\MIDDLEWARE\MQTTClient\MQTTClient.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\MQTTPacket.h)(0x5B0D2378)
@@ -44,7 +44,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -236,7 +236,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -377,7 +377,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -413,7 +413,7 @@ I (..\HARDWARE\MOBILE\mobile_startup.h)(0x5B85FD70)
 I (..\HARDWARE\MOBILE\gprs.h)(0x5B85F858)
 I (..\HARDWARE\RTC\rtc.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
-F (..\MIDDLEWARE\DEVICE\device.c)(0x5B8901CF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\device.o --omf_browse ..\obj\device.crf --depend ..\obj\device.d)
+F (..\MIDDLEWARE\DEVICE\device.c)(0x5B91D70C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\device.o --omf_browse ..\obj\device.crf --depend ..\obj\device.d)
 I (..\MIDDLEWARE\DEVICE\prize.h)(0x5B0D2378)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (..\USER\stm32f10x.h)(0x5B6411DA)
@@ -445,7 +445,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -530,7 +530,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -593,7 +593,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -721,7 +721,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -766,7 +766,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -819,7 +819,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -948,7 +948,7 @@ I (..\MIDDLEWARE\MQTT\MQTTFormat.h)(0x5B0D2378)
 I (..\MIDDLEWARE\MQTT\StackTrace.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\HARDWARE\LED\led.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+F (..\HARDWARE\LED\led.c)(0x5B91E18F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\HARDWARE\LED\led.h)(0x5B0D2378)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (..\USER\stm32f10x.h)(0x5B6411DA)
@@ -980,7 +980,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1017,7 +1017,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1054,7 +1054,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1104,7 +1104,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -1156,7 +1156,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1214,7 +1214,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1264,7 +1264,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1303,7 +1303,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1339,7 +1339,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1379,7 +1379,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1416,7 +1416,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1454,7 +1454,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1505,7 +1505,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -1556,7 +1556,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1596,7 +1596,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1655,7 +1655,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -1674,7 +1674,7 @@ I (..\USER\usr_task.h)(0x5B85F7AA)
 I (..\HARDWARE\UPGRADE\hexbin.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
 I (..\HARDWARE\FLASH\flash.h)(0x5B0D2378)
-F (..\HARDWARE\MOBILE\gprs.c)(0x5B8DDF12)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gprs.o --omf_browse ..\obj\gprs.crf --depend ..\obj\gprs.d)
+F (..\HARDWARE\MOBILE\gprs.c)(0x5B91D909)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gprs.o --omf_browse ..\obj\gprs.crf --depend ..\obj\gprs.d)
 I (..\MIDDLEWARE\DEVICE\device.h)(0x5B8658EA)
 I (..\SYSTEM\usart\usart3.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1708,7 +1708,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -1774,7 +1774,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1820,7 +1820,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1856,7 +1856,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1900,7 +1900,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1948,7 +1948,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -1965,7 +1965,7 @@ I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B0D2378)
 I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B0D2378)
 F (..\SYSTEM\dbg\dbg.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dbg.o --omf_browse ..\obj\dbg.crf --depend ..\obj\dbg.d)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\USER\stm32f10x.h)(0x5B6411DA)
 I (..\CORE\core_cm3.h)(0x5B0D2378)
@@ -1999,7 +1999,7 @@ I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\sys\sys.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\SYSTEM\ringbuf\ringbuf.c)(0x5B836E1E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ringbuf.o --omf_browse ..\obj\ringbuf.crf --depend ..\obj\ringbuf.d)
+F (..\SYSTEM\ringbuf\ringbuf.c)(0x5B91DC46)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ringbuf.o --omf_browse ..\obj\ringbuf.crf --depend ..\obj\ringbuf.d)
 I (..\SYSTEM\ringbuf\ringbuf.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
@@ -2039,7 +2039,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
@@ -2077,7 +2077,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 F (..\SYSTEM\protobuf\protobuf.c)(0x5B0D2378)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\DMA -I..\SYSTEM\dbg -I..\HARDWARE\MOBILE -I..\MIDDLEWARE\MQTT -I..\MIDDLEWARE\MQTTClient -I..\SYSTEM\ringbuf -I..\HARDWARE\RTC -I..\MIDDLEWARE\IOT -I..\HARDWARE\CHIP -I..\STM32_Cryptographic\Inc -I..\STM32_Cryptographic -I..\HARDWARE\I2C -I..\HARDWARE\PVD -I..\MIDDLEWARE\DEVICE -I..\SYSTEM\list -I..\SYSTEM\protobuf -I..\SYSTEM\encoding -I..\MIDDLEWARE\ROUTINE -I..\HARDWARE\FLASH -I..\HARDWARE\SELECTOR -I..\HARDWARE\UPGRADE-I D:\好酷工作文件\项目一\4G云采器\LTE版源代码1.2.1_最新2018.8.30\lte_freertos\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\protobuf.o --omf_browse ..\obj\protobuf.crf --depend ..\obj\protobuf.d)
@@ -2112,7 +2112,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2504,7 +2504,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2552,7 +2552,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2601,7 +2601,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2648,7 +2648,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2696,7 +2696,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2744,7 +2744,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2792,7 +2792,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2839,7 +2839,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -2948,7 +2948,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5B0D2378)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5B0D2378)
 I (..\SYSTEM\dbg\dbg.h)(0x5B0D2378)
-I (..\USER\user_config.h)(0x5B87B2D5)
+I (..\USER\user_config.h)(0x5B91CE39)
 I (..\HARDWARE\UPGRADE\upgrade.h)(0x5B0D2378)
 I (..\SYSTEM\usart\usart1.h)(0x5B0D2378)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)

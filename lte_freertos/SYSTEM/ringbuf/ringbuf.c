@@ -32,19 +32,19 @@ int32_t RINGBUF_Init(RINGBUF *r, uint8_t* buf, uint32_t size)
 int32_t RINGBUF_Put(RINGBUF *r, uint8_t c)
 {		  
 	uint32_t temp;
-	temp = r->head;
+	temp = r->head;  //取环形链表中的头的下一个位置
 	temp++;
-	if(temp >= r->size) 
+	if(temp >= r->size) //如果大于环形链表大小
 	{
 		temp = 0;
 	}
-	if(temp == r->tail)
+	if(temp == r->tail)//如果位置为链表尾，表示链表已满
 	{
 	 	return -1;		// ring buffer is full
 	}
 	
-	r->pt[r->head] = c;
-	r->head = temp;
+	r->pt[r->head] = c; //把数据放入头位置
+	r->head = temp;//环形链表头等于下一个位置
 	
 	return 0;
 }

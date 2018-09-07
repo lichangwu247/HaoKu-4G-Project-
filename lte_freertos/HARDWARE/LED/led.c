@@ -68,7 +68,7 @@ void LedCtr(LED_TYPE *ledCtr, uint32_t times)
 }
 
 
-void CtrLed(uint32_t timeInterval)
+void CtrLed(uint32_t timeInterval) //在定时器中周期执行此函数，
 {
 	LedCtr(&ledCtr, timeInterval);
 	

@@ -1199,75 +1199,87 @@ int device_failprize_get_response(u8 port, u8* msg, u16 len, u8 isnetwork_cmd)
 		return -1;
 	}
 	
-	if(len != 36)
-		return -1;
+  if((len==36)|(len==32))
+  {
+		memcpy(order_num, msg, 22);
+		memcpy((u8*)&type, (msg + 22), sizeof(type));
+		memcpy((u8*)&point, (msg + 24), sizeof(point));
+		memcpy((u8*)&seq, (msg + 28), sizeof(seq));
+		memcpy((u8*)&type2_data, (msg + 32), sizeof(type2_data));
 		
-	memcpy(order_num, msg, 22);
-	memcpy((u8*)&type, (msg + 22), sizeof(type));
-	memcpy((u8*)&point, (msg + 24), sizeof(point));
-	memcpy((u8*)&seq, (msg + 28), sizeof(seq));
-	memcpy((u8*)&type2_data, (msg + 32), sizeof(type2_data));
-	
-	COMDBG_INFO("type: %d\n", type);
-	COMDBG_INFO("point: %d\n", point);
-	COMDBG_INFO("seq: %d\n", seq);
-	if(1 == type)
-		type = 53;
-	else if(2 == type)
-		type =	52;
-	else if(3 == type)
-		type =	1;
-	else if(4 == type)
-	{
-		type =  51;
-		COMDBG_INFO("prize_type2: %d\n",type2_data );
-		type2=0x0CE5;//根据协议定义，封装数据
-		type2=htons(type2);
-		prize_type2_len=2;
-			//	prize_type2_len=htons(prize_type2_len);
-				
-		prize_buff[0]=type2;
-		prize_buff[1]=prize_type2_len;
-		prize_buff[2]=type2_data;
-	}
-	num = SerializeToOstream(iot_sendbuf, "%h%h%l%h%h%i%h%h%s%h%h%i%h%h%i%h%h%s%h%h%i",
-						1,8,(uint64_t)Unix_Get(),2,4, (uint32_t)port,
-			      3,strlen(order_num), order_num, 4,4,(uint32_t)type,5,4,point,6,sizeof(prize_buff),prize_buff,7,sizeof(seq), seq);	
-/*		type =	51;
-	
-	num = SerializeToOstream(iot_sendbuf, "%h%h%l%h%h%i%h%h%s%h%h%i%h%h%i%h%h%i",
-						1,8,(uint64_t)Unix_Get(),2,4, (uint32_t)port,
-						3,strlen(order_num), order_num, 4,4,(uint32_t)type,5,4,point, 7,sizeof(seq), seq);
-*/			
-	if(is_iot_works())
-	{
-		if(0 == iot_cloudpub(C2SDEV_PRIZE, QOS1, num, iot_sendbuf, 1))
-		{ 
-			COMDBG_INFO("prize upload sucess: %d\r\n",Unix_Get());
-			status = 1;
-			memcpy(eqt_sendbuf, order_num, strlen(order_num));
-			memcpy(eqt_sendbuf + strlen(order_num),  (u8*)&seq, sizeof(seq));
-			memcpy(eqt_sendbuf + strlen(order_num) + sizeof(seq), &status, sizeof(status));
-			device_cmd_send(DEVICE_FAILPRIZE_GET, port, (strlen(order_num) + sizeof(seq) + sizeof(status)),eqt_sendbuf);
-			return 0;
+		COMDBG_INFO("type: %d\n", type);
+		COMDBG_INFO("point: %d\n", point);
+		COMDBG_INFO("seq: %d\n", seq);
+		if(1 == type)
+			type = 53;
+		else if(2 == type)
+			type =	52;
+		else if(3 == type)
+			type =	1;
+		else if(4 == type)
+		{
+			type =  51;
+			if(len==36)
+			{
+				COMDBG_INFO("prize_type2: %d\n",type2_data );
+				type2=0x0CE5;//根据协议定义，封装数据
+				type2=htons(type2);
+				prize_type2_len=2;
+					//	prize_type2_len=htons(prize_type2_len);
+						
+				prize_buff[0]=type2;
+				prize_buff[1]=prize_type2_len;
+				prize_buff[2]=type2_data;
+			}
+		}
+		if(len==32)
+		{
+			num = SerializeToOstream(iot_sendbuf, "%h%h%l%h%h%i%h%h%s%h%h%i%h%h%i%h%h%i",
+							1,8,(uint64_t)Unix_Get(),2,4, (uint32_t)port,
+							3,strlen(order_num), order_num, 4,4,(uint32_t)type,5,4,point, 7,sizeof(seq), seq);
+		}
+		if(len==36)
+		{
+			num = SerializeToOstream(iot_sendbuf, "%h%h%l%h%h%i%h%h%s%h%h%i%h%h%i%h%h%s%h%h%i",
+							1,8,(uint64_t)Unix_Get(),2,4, (uint32_t)port,
+							3,strlen(order_num), order_num, 4,4,(uint32_t)type,5,4,point,6,sizeof(prize_buff),prize_buff,7,sizeof(seq), seq);	
+
+		}			
+
+		if(is_iot_works())
+		{
+			if(0 == iot_cloudpub(C2SDEV_PRIZE, QOS1, num, iot_sendbuf, 1))
+			{ 
+				COMDBG_INFO("prize upload sucess: %d\r\n",Unix_Get());
+				status = 1;
+				memcpy(eqt_sendbuf, order_num, strlen(order_num));
+				memcpy(eqt_sendbuf + strlen(order_num),  (u8*)&seq, sizeof(seq));
+				memcpy(eqt_sendbuf + strlen(order_num) + sizeof(seq), &status, sizeof(status));
+				device_cmd_send(DEVICE_FAILPRIZE_GET, port, (strlen(order_num) + sizeof(seq) + sizeof(status)),eqt_sendbuf);
+				return 0;
+			}else{
+				COMDBG_INFO("prize upload fail: %d\r\n",Unix_Get());
+				status = 0;
+				memcpy(eqt_sendbuf, order_num, strlen(order_num));
+				memcpy(eqt_sendbuf + strlen(order_num),  (u8*)&seq, sizeof(seq));
+				memcpy(eqt_sendbuf + strlen(order_num) + sizeof(seq), &status, sizeof(status));
+				device_cmd_send(DEVICE_FAILPRIZE_GET, port, (strlen(order_num) + sizeof(seq) + sizeof(status)),eqt_sendbuf);
+				return 0;
+			}		 
 		}else{
-			COMDBG_INFO("prize upload fail: %d\r\n",Unix_Get());
+			COMDBG_INFO("prize no network: %d\r\n",Unix_Get());
 			status = 0;
 			memcpy(eqt_sendbuf, order_num, strlen(order_num));
 			memcpy(eqt_sendbuf + strlen(order_num),  (u8*)&seq, sizeof(seq));
 			memcpy(eqt_sendbuf + strlen(order_num) + sizeof(seq), &status, sizeof(status));
 			device_cmd_send(DEVICE_FAILPRIZE_GET, port, (strlen(order_num) + sizeof(seq) + sizeof(status)),eqt_sendbuf);
 			return 0;
-		}		 
-	}else{
-		COMDBG_INFO("prize no network: %d\r\n",Unix_Get());
-		status = 0;
-		memcpy(eqt_sendbuf, order_num, strlen(order_num));
-		memcpy(eqt_sendbuf + strlen(order_num),  (u8*)&seq, sizeof(seq));
-		memcpy(eqt_sendbuf + strlen(order_num) + sizeof(seq), &status, sizeof(status));
-		device_cmd_send(DEVICE_FAILPRIZE_GET, port, (strlen(order_num) + sizeof(seq) + sizeof(status)),eqt_sendbuf);
-		return 0;
-	}	
+		}
+	}
+	else
+	{
+		return -1;
+	}
 }
 
 

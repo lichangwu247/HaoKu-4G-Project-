@@ -40,7 +40,7 @@
 
 #define EE_WRITE_IOT     //使能烧写iot.h文件中的固件信息
 
-#define USE_GPRS      //定义是否使用GPRS功能
+//#define USE_GPRS      //定义是否使用GPRS功能
 
 #endif
 
